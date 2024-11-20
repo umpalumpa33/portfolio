@@ -29,3 +29,293 @@ app-root {
 body.dark-mode {
   background-color: #1b1b1b;
 }
+
+body {
+  font-size: 16px !important;
+}
+
+@media (max-width: 2560px) {
+  body {
+    font-size: 18px !important;
+  }
+  h1 {
+    font-size: 4.5em !important;
+  }
+}
+
+@media (max-width: 1440px) {
+  body {
+    font-size: 15px !important;
+  }
+  h1 {
+    font-size: 5em !important;
+  }
+  h2 {
+    font-size: 1.8em !important;
+  }
+  h3 {
+    font-size: 2em !important;
+  }
+  h4 {
+    font-size: 1.4em !important;
+  }
+  h5 {
+    font-size: 1.2em !important;
+  }
+  h6 {
+    font-size: 1.1em !important;
+  }
+  p,
+  a {
+    font-size: 0.95em !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .images img {
+    max-width: 70px !important;
+  }
+
+  .grid img {
+    max-width: 60px !important;
+  }
+  .second_box {
+    flex: 1 !important;
+  }
+
+  .third_box {
+    display: none !important;
+  }
+
+  body {
+    font-size: 14px !important;
+  }
+  h1 {
+    font-size: 5em !important;
+  }
+  h2 {
+    font-size: 1.8em !important;
+  }
+  h3 {
+    font-size: 2em !important;
+  }
+  h4 {
+    font-size: 1.4em !important;
+  }
+  h5 {
+    font-size: 1.2em !important;
+  }
+  h6 {
+    font-size: 1.1em !important;
+  }
+  p,
+  a {
+    font-size: 1.3em !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_me {
+    flex-wrap: wrap !important;
+  }
+
+  .moving_text {
+    padding: 5px 0 !important;
+  }
+
+  .headers {
+    width: 100% !important;
+  }
+  .about_p {
+    width: 100% !important;
+  }
+
+  .headers h1 {
+    font-size: 5em !important;
+  }
+  .images img {
+    max-width: 50px !important;
+  }
+  .grid img {
+    max-width: 40px !important;
+  }
+  body {
+    font-size: 14px !important;
+  }
+  h1 {
+    font-size: 2em !important;
+  }
+  h2 {
+    font-size: 1.7em !important;
+  }
+  h3 {
+    font-size: 1.5em !important;
+  }
+  h4 {
+    font-size: 1.3em !important;
+  }
+  h5 {
+    font-size: 1.1em !important;
+  }
+  h6 {
+    font-size: 1em !important;
+  }
+  p,
+  a {
+    font-size: 1.2em !important;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    font-size: 13px !important;
+  }
+  h1 {
+    font-size: 1.8em !important;
+  }
+
+  .headers h1 {
+    font-size: 3em !important;
+  }
+  .main_component {
+    flex-direction: column !important;
+  }
+  .first_box {
+    gap: 5vh;
+  }
+
+  .first_box,
+  .second_box {
+    width: 100% !important;
+  }
+
+  .bottom_box {
+    display: none !important;
+  }
+
+  .top_box {
+    height: 100% !important;
+  }
+  .fourth_box {
+    width: 100% !important;
+  }
+  .second_box {
+    gap: 2vh !important;
+  }
+  .my_sites {
+    flex-wrap: wrap !important;
+  }
+  .my_sites div {
+    width: 100% !important;
+  }
+
+  h2 {
+    font-size: 1.6em !important;
+  }
+  h3 {
+    font-size: 1.4em !important;
+  }
+  h4 {
+    font-size: 1.2em !important;
+  }
+  h5 {
+    font-size: 1em !important;
+  }
+  h6 {
+    font-size: 0.9em !important;
+  }
+  p,
+  a {
+    font-size: 0.85em !important;
+  }
+  .knowledge {
+    flex-wrap: wrap !important;
+    flex-direction: column-reverse !important;
+  }
+  .knowledge_list {
+    width: 100% !important;
+  }
+  .knowledge_img {
+    width: 100% !important;
+  }
+  .images img {
+    max-width: 40px !important;
+  }
+  .grid img {
+    max-width: 30px !important;
+  }
+  footer {
+    margin-top: 0 !important;
+  }
+  .grid {
+    flex-direction: column !important;
+  }
+  .grid div {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 12px !important;
+  }
+  h1 {
+    font-size: 1.7em !important;
+  }
+  h2 {
+    font-size: 1.5em !important;
+  }
+  h3 {
+    font-size: 1.3em !important;
+  }
+  h4 {
+    font-size: 1.1em !important;
+  }
+  h5 {
+    font-size: 0.9em !important;
+  }
+  h6 {
+    font-size: 0.85em !important;
+  }
+  p,
+  a {
+    font-size: 0.8em !important;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    font-size: 11px !important;
+  }
+
+  .headers {
+    width: 100% !important;
+  }
+
+  .about_p {
+    width: 100% !important;
+  }
+
+  h1 {
+    font-size: 2em !important;
+  }
+  h2 {
+    font-size: 1.4em !important;
+  }
+  h3 {
+    font-size: 1.2em !important;
+  }
+  h4 {
+    font-size: 1em !important;
+  }
+  h5 {
+    font-size: 0.8em !important;
+  }
+  h6 {
+    font-size: 0.75em !important;
+  }
+  p,
+  a {
+    font-size: 1em !important;
+  }
+}
