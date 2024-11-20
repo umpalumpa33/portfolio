@@ -1,0 +1,120 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<main>
+  <div class="switch_div">
+    <label class="switch">
+      <input type="checkbox" (change)="toggleDarkMode($event)" />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div class="main_component">
+    <div class="first_box">
+      <h1 class="child">Hello, This is my Website</h1>
+      <p class="child">
+        Hi, I'm Ucha Sephiskveradze, <br />
+        Aspiring web developer specializing in Angular applications. Passionate
+        about building scalable, functional solutions.
+      </p>
+    </div>
+    <div class="second_box">
+      <div class="top_box">
+        <h3>EST: 2005</h3>
+        <div class="bot_side">
+          <div class="row">
+            <p>
+              <span id="small_text">Born in</span>
+              <br />
+              Sagarejo
+            </p>
+            <img
+              src="/assets/Flag_of_Georgia.svg"
+              alt="Georgia Flag"
+              width="19"
+              height="19"
+            />
+          </div>
+
+          <div class="row">
+            <p>
+              <span id="small_text">Currently live in:</span>
+              <br />
+              Tbilisi
+            </p>
+            <img
+              src="/assets/Flag_of_Georgia.svg"
+              id="second_img"
+              alt="Georgia Flag"
+              width="19"
+              height="19"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="bottom_box">
+        <img src="/assets/nature.jpg" alt="Nature Image" />
+      </div>
+    </div>
+    <div class="third_box">
+      <div id="weather_container">
+        <h2>Weather App</h2>
+        <input type="text" id="city" placeholder="Enter city" />
+        <button (click)="getWeather()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon" />
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+      </div>
+    </div>
+    <div class="fourth_box">
+      <h1>MENU +</h1>
+      <a
+        href="https://www.linkedin.com/in/ucha-sephiskveradze-0829552b4/"
+        target="_blank"
+      >
+        <img src="/assets/linkedin.png" alt="Linkedin" />
+      </a>
+    </div>
+  </div>
+  <div class="about_me">
+    <div class="headers">
+      <h1>
+        ENCOURAGER. <br />
+        BROTHER. FRIEND. <br />
+        LEARNER.
+      </h1>
+    </div>
+    <div class="about_p">
+      For the past few years, I've explored different paths, and now I'm focused
+      on fully mastering front-end development. As a 19-year-old student, I'm
+      eager to learn and grow, constantly working to improve my skills and
+      professionalism.
+      <br />
+      I've learned that when you truly understand your craft, you can create
+      more meaningful work. Whether it's building a seamless user experience or
+      developing innovative solutions, I'm here to help you take your project to
+      the next level.
+      <br />
+      Let's collaborate and make an impact by elevating your website and brand
+      to new heights.
+    </div>
+  </div>
+</main>

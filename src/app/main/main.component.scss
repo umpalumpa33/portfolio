@@ -1,0 +1,168 @@
+main {
+  transition: background-color 0.3s, color 0.3s;
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 2vh;
+}
+
+.nature img {
+  border: 1px;
+  border-radius: 15px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  width: 100%;
+}
+
+.nature img:hover {
+  filter: grayscale(0%);
+}
+
+.nature {
+  position: relative;
+  width: 100%;
+}
+
+.moving_text {
+  position: absolute;
+  bottom: 10px;
+  width: 97.5%;
+  background-color: #d7ffd0 !important;
+  border: 1px;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+  left: 1%;
+  color: white;
+  padding: 10px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.moving_text p {
+  display: inline-block;
+  color: black;
+  padding-left: 1%;
+  animation: moveText 30s linear infinite;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.my_sites {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2vw;
+  margin-top: 1vh;
+}
+
+.my_sites a,
+p,
+h3 {
+  color: white;
+}
+
+.my_sites a {
+  text-wrap: balance;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 1.1em;
+}
+
+.site_intro h3 {
+  font-weight: 400;
+  line-height: 100%;
+  font-size: 5em;
+  width: 80%;
+}
+
+.my_sites a {
+  text-decoration: none;
+}
+
+.site_intro {
+  width: 30%;
+  color: #1b1b1b;
+  background-color: #1b1b1b;
+  border: 1px solid #e8e8e8;
+  padding: 2.5em;
+
+  border-radius: 0.625em;
+}
+
+.project_list {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em;
+  width: 68%;
+  color: #1b1b1b;
+  background-color: #1b1b1b;
+  border: 1px solid #e8e8e8;
+  justify-content: space-between;
+  border-radius: 0.625em;
+}
+
+.knowledge {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  gap: 2vw;
+  margin-top: 2vh;
+}
+
+.knowledge_list a,
+.knowledge_list p,
+.knowledge_list h3 {
+  color: black;
+}
+
+.knowledge_list h3 {
+  font-size: 3em;
+}
+
+.knowledge_img {
+  width: 34%;
+  border-radius: 0.625em;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  object-fit: cover;
+}
+
+.knowledge_img img {
+  border-radius: 0.625em;
+  height: 100%;
+  max-width: 100%;
+}
+
+.knowledge_img:hover {
+  filter: grayscale(0%);
+}
+
+.knowledge_list {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em;
+  gap: 2vh;
+  width: 65%;
+  color: #d7ffd0;
+  background-color: #d7ffd0;
+  border: 1px solid #d7ffd0;
+  justify-content: space-between;
+  border-radius: 0.625em;
+}
+
+.images {
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+
+.images img {
+  max-width: 100px;
+}

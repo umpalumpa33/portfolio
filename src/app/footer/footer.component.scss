@@ -1,0 +1,66 @@
+footer {
+  transition: background-color 0.3s, color 0.3s;
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::ng-deep footer.dark-mode {
+  background-color: #1b1b1b !important;
+  color: white;
+}
+
+.copyright.dark-mode {
+  background-color: white;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first,
+.second {
+  display: flex;
+  padding: 2.5em;
+  background-color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  gap: 1vh;
+  width: 25%;
+  flex-wrap: wrap;
+  border-radius: 0.625em;
+  flex-direction: column;
+}
+
+.first p,
+.second p {
+  font-size: 1.7em;
+}
+
+.first h2,
+.second h2 {
+  font-size: 2em;
+}
+
+.first img,
+.second img {
+  max-width: 80px;
+}
+
+.copyright {
+  display: flex;
+  background-color: #1b1b1b;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.625em;
+  padding: 2.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-left: auto;
+  width: 25%;
+  margin-top: 1vh;
+  color: white;
+  justify-content: flex-end;
+}
