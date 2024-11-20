@@ -90,6 +90,15 @@ input:checked + .slider:before {
   padding: 2vh 1vw;
 }
 
+.top_box {
+  height: 50%;
+  justify-content: space-between;
+}
+
+.bottom_box {
+  height: 50%;
+}
+
 .first_box {
   width: 30%;
   font-family: "Afacad Flux";
