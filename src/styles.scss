@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 p,
@@ -166,7 +166,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 470px) {
   body {
     font-size: 13px !important;
   }
@@ -179,36 +179,50 @@ body {
   }
   .main_component {
     flex-direction: column !important;
+    height: 95vh !important;
+    margin-bottom: 3vh !important;
   }
   .first_box {
     gap: 5vh;
   }
-
-  .first_box,
-  .second_box {
+  .bottom_box img {
+    max-height: 300px !important;
     width: 100% !important;
   }
-
-  .bottom_box {
-    display: none !important;
+  .first_box,
+  .second_box,
+  .fourth_box {
+    width: 100% !important;
+    flex: 1 1 auto !important;
   }
 
   .top_box {
     height: 100% !important;
   }
   .fourth_box {
-    width: 100% !important;
+    height: 100% !important;
+  }
+  .first_box,
+  .fourth_box {
+    height: 40vh !important;
   }
   .second_box {
     gap: 2vh !important;
   }
   .my_sites {
     flex-wrap: wrap !important;
+    gap: 0 !important;
   }
   .my_sites div {
     width: 100% !important;
   }
 
+  .site_intro {
+    border-radius: 0.625em 0.625em 0 0 !important;
+  }
+  .project_list {
+    border-radius: 0 0 0.625em 0.625em !important;
+  }
   h2 {
     font-size: 1.6em !important;
   }
@@ -237,6 +251,9 @@ body {
   }
   .knowledge_img {
     width: 100% !important;
+  }
+  .fourth_box img {
+    max-width: 30px !important;
   }
   .images img {
     max-width: 40px !important;
