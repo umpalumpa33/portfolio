@@ -216,11 +216,12 @@ body {
   .my_sites div {
     width: 100% !important;
   }
-
   .site_intro {
+    border-bottom: none !important;
     border-radius: 0.625em 0.625em 0 0 !important;
   }
   .project_list {
+    border-top: none !important;
     border-radius: 0 0 0.625em 0.625em !important;
   }
   h2 {
